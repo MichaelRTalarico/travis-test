@@ -1,6 +1,7 @@
 language: go
 
-go
-- master
+go:
+  - master
 
-go test .
+script:
+  - go test ./...
